@@ -1,0 +1,16 @@
+{
+  "name": "dua-image-server",
+  "version": "1.0.0",
+  "description": "Free server that turns dua text into an Instagram-ready image URL, hosted on Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.0.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
